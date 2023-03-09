@@ -29,5 +29,11 @@
     "genre" : "royb@example.com",
     "author" : "Blk 45 Aljunied Street 85, #11-31",
     "tagged" : [ "colleagues" ]
+  }, {
+    "title" : "test",
+    "phone" : "00000000",
+    "genre" : "bob@lmao.com",
+    "author" : "testing 123",
+    "tagged" : [ ]
   } ]
 }
