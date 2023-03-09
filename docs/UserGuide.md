@@ -81,7 +81,7 @@ Adds a bookmark to the library.
 Format: `add t/TITLE a/AUTHOR s/STATUS g/GENRE [t/TAG]…​`
 
 <div markdown="span" class="alert alert-primary">:bulb: **Tip:**
-A person can have any number of tags (including 0)
+A bookmark can have any number of tags (including 0)
 </div>
 
 Examples:
@@ -94,7 +94,7 @@ Shows a list of all bookmarks in the library.
 
 Format: `list`
 
-### Editing a person : `edit`
+### Editing a bookmark : `edit`
 
 Edits an existing bookmark in the library.
 
@@ -103,13 +103,13 @@ Format: `edit INDEX [t/TITLE] [a/AUTHOR] [s/STATUS] [g/GENRE] [t/TAG]…​`
 * Edits the bookmark at the specified `INDEX`. The index refers to the index number shown in the displayed bookmark list. The index **must be a positive integer** 1, 2, 3, …​
 * At least one of the optional fields must be provided.
 * Existing values will be updated to the input values.
-* When editing tags, the existing tags of the person will be removed i.e adding of tags is not cumulative.
-* You can remove all the person’s tags by typing `t/` without
+* When editing tags, the existing tags of the bookmark will be removed i.e adding of tags is not cumulative.
+* You can remove all the bookmark’s tags by typing `t/` without
     specifying any tags after it.
 
 Examples:
 *  `edit 1 t/Hobbit a/J. R. R. Tolkien` Edits the title and author of the 1st bookmark to be `Hobbit` and `J. R. R. Tolkien` respectively.
-*  `edit 2 n/The Odyssey t/` Edits the name of the 2nd person to be `The Odyssey` and clears all existing tags.
+*  `edit 2 n/The Odyssey t/` Edits the title of the 2nd bookmark to be `The Odyssey` and clears all existing tags.
 
 ### Locating bookmarks by title: `find`
 
@@ -129,7 +129,7 @@ Examples:
 * `find ranker's demon` returns `Ranker's Guide to an Ordinary Life`, `Demon Slayer`<br>
 
 
-### Deleting a person : `delete`
+### Deleting a bookmark : `delete`
 
 Deletes the specified bookmark from the library.
 
@@ -161,7 +161,7 @@ MyLib data are saved in the hard disk automatically after any command that chang
 
 ### Editing the data file
 
-MyLib data are saved as a JSON file `[JAR file location]/data/addressbook.json`. Advanced users are welcome to update data directly by editing that data file.
+MyLib data are saved as a JSON file `[JAR file location]/data/Library.json`. Advanced users are welcome to update data directly by editing that data file.
 
 <div markdown="span" class="alert alert-warning">:exclamation: **Caution:**
 If your changes to the data file makes its format invalid, MyLib will discard all data and start with an empty data file at the next run.
@@ -176,7 +176,7 @@ _Details coming soon ..._
 ## FAQ
 
 **Q**: How do I transfer my data to another Computer?<br>
-**A**: Install the app in the other computer and overwrite the empty data file it creates with the file that contains the data of your previous AddressBook home folder.
+**A**: Install the app in the other computer and overwrite the empty data file it creates with the file that contains the data of your previous Library home folder.
 
 --------------------------------------------------------------------------------------------------------------------
 

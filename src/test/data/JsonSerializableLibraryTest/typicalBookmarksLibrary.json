@@ -1,0 +1,46 @@
+{
+  "_comment": "Library save file which contains the same Bookmark values as in TypicalBookmarks#getTypicalLibrary()",
+  "bookmarks": [ {
+    "title": "Alice Pauline",
+    "phone" : "94351253",
+    "genre": "alice@example.com",
+    "author": "123, Jurong West Ave 6, #08-111",
+    "tagged" : [ "friends" ]
+  }, {
+    "title": "Benson Meier",
+    "phone" : "98765432",
+    "genre": "johnd@example.com",
+    "author": "311, Clementi Ave 2, #02-25",
+    "tagged" : [ "owesMoney", "friends" ]
+  }, {
+    "title": "Carl Kurz",
+    "phone" : "95352563",
+    "genre": "heinz@example.com",
+    "author": "wall street",
+    "tagged" : [ ]
+  }, {
+    "title": "Daniel Meier",
+    "phone" : "87652533",
+    "genre": "cornelia@example.com",
+    "author": "10th street",
+    "tagged" : [ "friends" ]
+  }, {
+    "title": "Elle Meyer",
+    "phone" : "9482224",
+    "genre": "werner@example.com",
+    "author": "michegan ave",
+    "tagged" : [ ]
+  }, {
+    "title": "Fiona Kunz",
+    "phone" : "9482427",
+    "genre": "lydia@example.com",
+    "author": "little tokyo",
+    "tagged" : [ ]
+  }, {
+    "title": "George Best",
+    "phone" : "9482442",
+    "genre": "anna@example.com",
+    "author": "4th street",
+    "tagged" : [ ]
+  } ]
+}

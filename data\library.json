@@ -1,0 +1,33 @@
+{
+  "bookmarks" : [ {
+    "title" : "Bernice Yu",
+    "phone" : "99272758",
+    "genre" : "berniceyu@example.com",
+    "author" : "Blk 30 Lorong 3 Serangoon Gardens, #07-18",
+    "tagged" : [ "colleagues", "friends" ]
+  }, {
+    "title" : "Charlotte Oliveiro",
+    "phone" : "93210283",
+    "genre" : "charlotte@example.com",
+    "author" : "Blk 11 Ang Mo Kio Street 74, #11-04",
+    "tagged" : [ "neighbours" ]
+  }, {
+    "title" : "David Li",
+    "phone" : "91031282",
+    "genre" : "lidavid@example.com",
+    "author" : "Blk 436 Serangoon Gardens Street 26, #16-43",
+    "tagged" : [ "family" ]
+  }, {
+    "title" : "Irfan Ibrahim",
+    "phone" : "92492021",
+    "genre" : "irfan@example.com",
+    "author" : "Blk 47 Tampines Street 20, #17-35",
+    "tagged" : [ "classmates" ]
+  }, {
+    "title" : "Roy Balakrishnan",
+    "phone" : "92624417",
+    "genre" : "royb@example.com",
+    "author" : "Blk 45 Aljunied Street 85, #11-31",
+    "tagged" : [ "colleagues" ]
+  } ]
+}

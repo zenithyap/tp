@@ -1,0 +1,14 @@
+{
+  "bookmarks": [ {
+    "title": "Alice Pauline",
+    "phone": "94351253",
+    "genre": "alice@example.com",
+    "author": "123, Jurong West Ave 6, #08-111",
+    "tagged": [ "friends" ]
+  }, {
+    "title": "Alice Pauline",
+    "phone": "94351253",
+    "genre": "pauline@example.com",
+    "author": "4th street"
+  } ]
+}

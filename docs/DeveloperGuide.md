@@ -40,7 +40,7 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 | `* *` | user with many bookmarks | find bookmarks by book author | view bookmarks of books written by a specific author|
 | `* *` | user | add hyperlinks to bookmarks | link the website where I am reading the book's chapters from|
 | `*` | user | add book characters to a bookmark | store noteworthy characters which I remember the book by|
-| `* ` | user | find bookmarks using name of characters | locate books with certain characters easily|
+| `* ` | user | find bookmarks using title of characters | locate books with certain characters easily|
 | `* *` | user with many bookmarks | sort bookmarks by date of creation | view bookmarks in order of creation |
 | `* *` | user with many bookmarks | find bookmarks by last modified date | view bookmarks in order of most recently updated|
 | `* *` | user  | add last read chapter to a bookmark | know where I last left off with a certain book|
@@ -144,7 +144,7 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 ### Non-Functional Requirements
 
 1.  Should work on any _mainstream OS_ as long as it has Java `11` or above installed.
-2.  Should be able to hold up to 1000 persons without a noticeable sluggishness in performance for typical usage.
+2.  Should be able to hold up to 1000 bookmarks without a noticeable sluggishness in performance for typical usage.
 3.  A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse.
 4.  Saved data should be stored locally and in a human editable text file to allow advanced users to manipulate the data by editing the file.
 5.  The software should work without requiring an installer.
@@ -186,20 +186,20 @@ testers are expected to do more *exploratory* testing.
 
 1. _{ more test cases …​ }_
 
-### Deleting a person
+### Deleting a bookmark
 
 1. Deleting a bookmark while all bookmarks are being shown
 
-   1. Prerequisites: List all persons using the `list` command. 
+   1. Prerequisites: List all bookmarks using the `list` command. 
 
    1. Test case: `delete 1`<br>
       Expected: First bookmark is deleted from the list. Details of the deleted bookmark shown in the status message. Timestamp in the status bar is updated.
 
    1. Test case: `delete 0`<br>
-      Expected: No person is deleted. prompts user to enter valid index in the status message. Status bar remains the same.
+      Expected: No bookmark is deleted. prompts user to enter valid index in the status message. Status bar remains the same.
 
    1. Other incorrect delete commands to try: `delete`, `delete x`, `...` (where x is larger than the list size or x is not an integer)<br>
-      Expected: No person is deleted. prompts user to enter valid index in the status message. Status bar remains the same.
+      Expected: No bookmark is deleted. prompts user to enter valid index in the status message. Status bar remains the same.
 
 1. _{ more test cases …​ }_
 
