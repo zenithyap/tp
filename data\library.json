@@ -1,5 +1,11 @@
 {
   "bookmarks" : [ {
+    "title" : "Alex Yeoh",
+    "phone" : "87438807",
+    "genre" : "alexyeoh@example.com",
+    "author" : "Blk 30 Geylang Street 29, #06-40",
+    "tagged" : [ "friends" ]
+  }, {
     "title" : "Bernice Yu",
     "phone" : "99272758",
     "genre" : "berniceyu@example.com",
@@ -29,11 +35,5 @@
     "genre" : "royb@example.com",
     "author" : "Blk 45 Aljunied Street 85, #11-31",
     "tagged" : [ "colleagues" ]
-  }, {
-    "title" : "test",
-    "phone" : "00000000",
-    "genre" : "bob@lmao.com",
-    "author" : "testing 123",
-    "tagged" : [ ]
   } ]
 }
