@@ -1,5 +1,10 @@
 package seedu.library.model.tag;
 
+import seedu.library.logic.commands.exceptions.CommandException;
+import seedu.library.model.Model;
+
+import java.util.Set;
+
 import static java.util.Objects.requireNonNull;
 import static seedu.library.commons.util.AppUtil.checkArgument;
 
@@ -32,6 +37,9 @@ public class Tag {
         return test.matches(VALIDATION_REGEX);
     }
 
+    public static boolean isValidTag(Set<Tag> tags, Model model) {
+        return model.hasTag(tags);
+    }
 
     public String getTagName() {
         return this.tagName;

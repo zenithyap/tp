@@ -11,6 +11,7 @@ import static seedu.library.logic.parser.CliSyntax.PREFIX_URL;
 import seedu.library.logic.commands.exceptions.CommandException;
 import seedu.library.model.Model;
 import seedu.library.model.bookmark.Bookmark;
+import seedu.library.model.tag.Tag;
 
 /**
  * Adds a bookmark to the address book.
@@ -70,7 +71,7 @@ public class AddCommand extends Command {
             throw new CommandException(MESSAGE_DUPLICATE_BOOKMARK);
         }
 
-        if (hasTags && !model.hasTag(toAdd.getTags())) {
+        if (hasTags && !Tag.isValidTag(toAdd.getTags(), model)) {
             throw new CommandException(MESSAGE_ERROR_TAG);
         }
 
