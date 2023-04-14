@@ -40,7 +40,7 @@ This User Guide provides an easy-to-understand and comprehensive documentation, 
 This User Guide is split into multiple important sections:
 * The [Getting Started](#getting-started) section provides step-by-step instructions to download and get started with MyLib.
 * The [Key Definitions](#key-definitions) section provides a concise explanation of the various key terms used in this User Guide. It will explain what a bookmark is in the context of MyLib.
-* The [Graphical User Interface](#graphical-user-interface-br) section provides a quick rundown of the different components of MyLib's user interface.
+* The [Graphical User Interface](#graphical-user-interface-) section provides a quick rundown of the different components of MyLib's user interface.
 * The [Commands](#commands) section provides detailed explanations of all the various features in MyLib to help you bookmark your content.
 
 If you are a new user, we recommend going through the sections in the order provided above. If you are an experienced user and are just looking for a quick reference, we recommend either going through the [Commands](#commands) section or the [Command Summary](#command-summary) table. The [Commands](#commands) section will provide a detailed explanation of each command. If you're only looking for a brief overview of the commands, we recommend the [Command Summary](#command-summary) table.
